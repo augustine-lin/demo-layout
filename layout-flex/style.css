@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    height: 30px;
+    flex-grow: 0;
+    background-color: #ffb6b9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    width: 60px;
+    flex-grow: 0;
+    background-color: #bbded6;
+}
+
+main {
+    flex-grow: 1;
+    background-color: #8ac6d1;
+}
+
+.container {
+    display: flex;
+    flex-grow: 1;
+}

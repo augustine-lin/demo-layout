@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+}
+
+header, footer {
+    height: 30px;
+    background-color: #96ceb4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    height: 100%;
+    width: 60px;
+    display: inline-block;
+    background-color: #ffeead;
+}
+
+main {
+    height: 100%;
+    width: calc(100% - 60px);
+    display: inline-block;
+    background-color: #ffad60;
+}
+
+.container {
+    height: calc(100% - 30px - 30px);
+    width: 100%;
+    font-size: 0;
+}
